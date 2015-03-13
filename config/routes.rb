@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get 'about'       => 'static_pages#about'
   get 'contact'     => 'static_pages#contact'
   get 'signup'      => 'users#new'
-  get 'definitions' => 'static_pages#Definitions'
+  get 'definitions' => 'static_pages#definitions'
   resources :users
 end
