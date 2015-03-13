@@ -58,11 +58,13 @@ h2 {
   font-weight: normal;
   color: $gray-light;
 }
-
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
+h3 {
+  font-size: 1em;
+    margin-bottom: 30px;
+  text-align: left;
 }
+
+
 
 
 /* header */
@@ -231,16 +233,29 @@ input {
     background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
+    height: 710px;
+    color: white;
+    background: transparent;     
 }
 
-
-
-.jumbotron {
+.jumbotrond {
     margin-bottom: 0px;
-    height: 750px;
+    background-image: url(../img/jumbotronbackground.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
-    background: transparent;
+    height: 710px;
+    color: white;
+    background: transparent;     
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 }
 
 .bg {
@@ -258,6 +273,12 @@ left-align: center;
 padding: center;
 position: center;
   
+}
+
+.p1 {
+  font-size: 1.2em;
+  text-align: left;
+  text-decoration: none;
 }
 
 
